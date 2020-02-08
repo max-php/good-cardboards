@@ -1,0 +1,70 @@
+.navbar
+	padding: 15px 0
+	&-block
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&-logo
+		background: url('../img/navbar/navbar-logo.png') center no-repeat
+		background-size: 100%
+		width: 191px
+		height: 61px
+	&-contacts
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&-phone
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&__phone
+		color: $main-gray
+		font-size: 22px
+		font-weight: 500
+		margin: 0 10px
+		text-decoration: none
+		text-transform: uppercase
+	&__button
+		font-size: 14px
+		font-weight: 500
+		padding: 18px 22px
+		margin-left: 17px
+	&__icon
+		margin-right: 7px
+@media (max-width: 960px)
+	.navbar
+		&-logo
+			max-width: 20%
+			background: url('../img/navbar/navbar-logo_large.png') center no-repeat
+@media (max-width: 786px)
+	.navbar
+		&-logo
+			max-width: 50%
+			background: url('../img/navbar/navbar-logo.png') center no-repeat
+		&-phone
+			display: flex
+			flex-direction: column
+		&__phone
+			display: flex
+			color: $main-gray
+			font-size: 14px
+			font-weight: 500
+			text-decoration: none
+			text-transform: uppercase
+			line-height: 17px
+		&__phone_bold
+			font-weight: 900
+		&__button
+			padding: 10px
+			margin-left: 14px
+		&__icon
+			margin-right: 0px
+		&-text_mobile
+			display: none
+@media (max-width: 580px)
+	.navbar
+		&-logo
+			background: $main-orange url('../img/navbar/navbar-logo_mobile.png') center no-repeat
+			width: 50px
+			height: 50px
+			border-radius: 4px

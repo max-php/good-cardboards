@@ -1,0 +1,47 @@
+body
+	font-family: 'Roboto', sans-serif
+img
+	max-width: 100%
+.container
+	max-width: 1100px
+	margin: auto
+@media (max-width: 1200px)
+	.container
+		width: 960px
+@media (max-width: 960px)
+	.container
+		max-width: 750px
+		width: 95%
+@media (max-width: 786px)
+	.container
+		max-width: 580px
+		width: 90%
+@media (max-width: 580px)
+	.container
+		max-width: 580px
+		width: 90%
+	
+.button
+	display: flex
+	justify-content: space-between
+	align-items: center
+	color: $main-light
+	border-radius: 8px
+	background-color: $main-orange
+	border: none
+	cursor: pointer
+.section
+	&__title
+		color: $main-heading
+		font-size: 27px
+		font-weight: 700
+		text-transform: uppercase
+		text-align: center
+		margin: 0
+		margin-bottom: 35px
+		&:after
+			content: ''
+			display: block
+			height: 6px
+			background: url('../img/all/line.png') center no-repeat
+			margin-top: 12px

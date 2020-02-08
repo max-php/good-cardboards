@@ -1,0 +1,73 @@
+.features
+	background-color: $main-bg-light
+	padding: 50px 0
+	&-blocks
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+	&__title
+	&__item
+		display: flex
+		justify-content: space-between
+		align-items: center
+		flex-basis: 25%
+		background-color: $main-light
+		padding: 28px 19px
+		margin-bottom: 30px
+	&-image
+		flex-basis: 50%
+	&-text
+		margin-left: 10px
+	&__title
+		color: $main-gray
+		font-size: 15px
+		font-weight: 700
+		margin: 0
+		margin-bottom: 5px
+	&__subtitle
+		display: block
+		color: $main-gray
+		font-size: 14px
+		font-weight: 300
+.numbers
+	display: flex
+	justify-content: space-between
+	align-items: top
+	flex-wrap: wrap
+	margin-bottom: 37px
+	&__item
+		flex-basis: 32%
+	&__title
+		color: $main-orange
+		font-size: 36px
+		font-weight: 900
+		text-align: center
+		margin: 0
+		margin-bottom: 10px
+	&__sup
+		font-size: 18px
+	&__subtitle
+		color: $main-gray
+		font-size: 16px
+		font-weight: 300
+		text-align: center
+		margin: 0
+@media (max-width: 786px)
+	.features
+		padding: 50px 0
+		&__item
+			flex-basis: 40%
+			margin-bottom: 20px
+	.numbers
+		&__item
+			flex-basis: 40%
+			margin-bottom: 24px
+@media (max-width: 580px)
+	.numbers
+		&__item
+			flex-basis: 100%
+			margin-bottom: 24px
+	.features
+		&__item
+			flex-basis: 100%
+			margin-bottom: 20px

@@ -1,0 +1,86 @@
+.offer
+	padding: 64px 0
+	background: url('../img/offer/offer-bg.jpg') center no-repeat
+	background-size: cover
+	&-block
+		display: flex
+		justify-content: center
+		align-items: center
+	&__title
+		color: $main-light
+		font-size: 32px
+		font-weight: 400
+		text-align: center
+		margin: 0
+		margin-bottom: 5px
+	&__subtitle
+		display: block
+		color: $main-light
+		font-size: 26px
+		font-weight: 400
+		text-align: center
+		margin-bottom: 25px
+	&-form
+	&__form
+	&__label
+		display: block
+		color: $main-light
+		font-size: 20px
+		font-weight: 300
+		text-align: center
+		margin-bottom: 17px
+	&__input
+		display: block
+		color: $main-dark
+		background-color: $main-light
+		font-size: 14px
+		font-weight: 300
+		padding: 21px 120px
+		margin: auto
+		margin-bottom: 12px
+	&__button
+		display: block
+		color: $main-light
+		background-color: $main-orange
+		font-size: 15px
+		font-weight: 400
+		padding: 21px 30px
+		border: none
+		margin: auto
+		margin-bottom: 9px
+	&__small
+		display: block
+		color: $main-light
+		font-size: 14px
+		font-weight: 300
+		text-align: center
+@media (max-width: 960px)
+	.offer
+		padding: 50px 0
+		&__title
+			font-size: 20px
+			margin-bottom: 5px
+		&__subtitle
+			font-size: 16px
+			margin-bottom: 25px
+		&-form
+		&__form
+		&__label
+			font-size: 14px
+			margin-bottom: 17px
+		&__input
+			font-size: 13px
+			padding: 21px 87px
+			margin-bottom: 12px
+			max-width: 100%
+		&__button
+			font-size: 15px
+			padding: 19px 29px
+			margin-bottom: 9px
+		&__small
+			font-size: 14px
+			font-weight: 300
+@media (max-width: 580px)
+	.offer
+		&__input
+			padding: 21px 40px

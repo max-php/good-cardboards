@@ -1,0 +1,120 @@
+.header
+	padding: 65px 0
+	background: url('../img/header/header-bg.jpg') center no-repeat
+	background-size: cover
+	&-block
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&-text
+		flex-basis: 50%
+	&__title
+		color: $main-light
+		font-size: 41px
+		font-weight: 700
+		line-height: 42px
+		margin-bottom: 20px
+	&__subtitle
+		display: block
+		color: $main-light
+		font-size: 28px
+		font-weight: 300
+		margin-bottom: 24px
+	&-form
+		padding: 30px 27px
+		background-color: rgba(#ffffff, 0.2)
+	&-form__title
+		color: $main-light
+		font-size: 20px
+		font-weight: 300
+		line-height: 30px
+		margin-bottom: 20px
+	&-form__subtitle
+		display: block
+		font-weight: 700
+		text-transform: uppercase
+	&__form
+		display: flex
+		align-items: center
+		margin-bottom: 12px
+	&__input
+		color: $main-gray
+		font-size: 14px
+		font-weight: 300
+		padding: 21px 19px
+		border-radius: 8px
+		border: none
+		flex-basis: 50%
+	&__button
+		font-size: 15px
+		font-weight: 500
+		padding: 21px 20px
+		margin-left: 10px
+	&__small
+		color: $main-light
+		font-size: 14px
+		font-weight: 300
+@media (max-width: 960px)
+	.header
+		&-image
+			display: none
+		&-text
+			flex-basis: 100%
+@media (max-width: 580px)
+	.header
+		padding: 50px 0
+		&-text
+			flex-basis: 90%
+			margin: auto
+		&__title
+			color: $main-orange
+			font-size: 22px
+			font-weight: 700
+			line-height: 24px
+			line-height: 42px
+			text-align: center
+			margin-bottom: 24px
+		&__subtitle
+			display: block
+			color: $main-light
+			font-size: 18px
+			font-weight: 300
+		&-form
+			padding: 30px 27px
+		&-form__title
+			color: $main-light
+			font-size: 15px
+			font-weight: 300
+			line-height: 30px
+			text-align: center
+			margin-bottom: 20px
+		&-form__subtitle
+			display: block
+			font-weight: 700
+			text-transform: uppercase
+		&__form
+			display: flex
+			align-items: center
+			margin-bottom: 12px
+			flex-direction: column
+		&__input
+			display: block
+			color: $main-gray
+			font-size: 14px
+			font-weight: 300
+			padding: 21px 40px
+			border-radius: 8px
+			border: none
+			margin: auto
+			margin-bottom: 13px			
+		&__button
+			display: block
+			padding: 19px 29px
+			margin: auto
+			margin-bottom: 16px
+		&__small
+			display: block
+			color: $main-light
+			font-size: 13px
+			font-weight: 300
+			text-align: center
